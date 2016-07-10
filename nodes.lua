@@ -40,7 +40,7 @@ minetest.register_node("darkage:cobble_with_plaster", {
 	description = "Cobblestone With Plaster",
 	tiles = {"darkage_cobble_with_plaster_D.png", "darkage_cobble_with_plaster_B.png", "darkage_cobble_with_plaster_C.png",
 		"darkage_cobble_with_plaster_A.png", "default_cobble.png", "darkage_chalk.png"},
-	is_ground_content = true,
+	is_ground_content = false,
 	paramtype2 = "facedir",
 	drop = 'default:cobble',
 	groups = {cracky=3},
@@ -59,7 +59,7 @@ minetest.register_node("darkage:desert_stone_with_iron", {
 minetest.register_node("darkage:darkdirt", {
 	description = "Dark Dirt",
 	tiles = {"darkage_darkdirt.png"},
-	is_ground_content = true,
+	is_ground_content = false,
 	groups = {crumbly=2},
 	sounds = default.node_sound_dirt_defaults(),
 })
@@ -67,7 +67,7 @@ minetest.register_node("darkage:darkdirt", {
 minetest.register_node("darkage:dry_leaves", {
 	description = "Dry Leaves",
 	tiles = {"darkage_dry_leaves.png"},
-	is_ground_content = true,
+	is_ground_content = false,
 	paramtype = "light",
 	groups = {snappy=3, flammable=2},
 	sounds = default.node_sound_leaves_defaults()
@@ -97,7 +97,7 @@ minetest.register_node("darkage:gneiss", {
 minetest.register_node("darkage:gneiss_cobble", {
 	description = "Gneiss Cobble",
 	tiles = {"darkage_gneiss_cobble.png"},
-	is_ground_content = true,
+	is_ground_content = false,
 	groups = {cracky=3},
 	sounds = default.node_sound_stone_defaults()
 })
@@ -133,7 +133,7 @@ minetest.register_node("darkage:ors", {
 minetest.register_node("darkage:ors_cobble", {
 	description = "Old Red Sandstone Cobble",
 	tiles = {"darkage_ors_cobble.png"},
-	is_ground_content = true,
+	is_ground_content = false,
 	groups = {crumbly=2,cracky=2},
 	sounds = default.node_sound_stone_defaults()
 })
@@ -185,7 +185,7 @@ minetest.register_node("darkage:slate", {
 minetest.register_node("darkage:slate_cobble", {
 	description = "Slate Cobble",
 	tiles = {"darkage_slate_cobble.png"},
-	is_ground_content = true,
+	is_ground_content = false,
 	groups = {cracky=2},
 	sounds = default.node_sound_stone_defaults()
 })
@@ -193,7 +193,7 @@ minetest.register_node("darkage:slate_cobble", {
 minetest.register_node("darkage:slate_tile", {
 	description = "Slate Tile",
 	tiles = {"darkage_slate_tile.png"},
-	is_ground_content = true,
+	is_ground_content = false,
 	groups = {cracky=2},
 	sounds = default.node_sound_stone_defaults()
 })
@@ -204,7 +204,7 @@ minetest.register_alias("darkage:straw", "farming:straw")
 minetest.register_node("darkage:stone_brick", {
 	description = "Stone Brick",
 	tiles = {"darkage_stone_brick.png"},
-	is_ground_content = true,
+	is_ground_content = false,
 	groups = {cracky=3},
 	sounds = default.node_sound_stone_defaults()
 })
@@ -212,7 +212,7 @@ minetest.register_node("darkage:stone_brick", {
 minetest.register_node("darkage:straw_bale", {
 	description = "Straw Bale",
 	tiles = {"darkage_straw_bale.png"},
-	is_ground_content = true,
+	is_ground_content = false,
 	drop = 'farming:straw 4',
 	groups = {snappy=2, flammable=2},
 	sounds = default.node_sound_leaves_defaults(),
@@ -229,7 +229,7 @@ minetest.register_node("darkage:marble", {
 minetest.register_node("darkage:marble_tile", {
 	description = "Marble Tile",
 	tiles = {"darkage_marble_tile.png"},
-	is_ground_content = true,
+	is_ground_content = false,
 	groups = {cracky=2},
 	sounds = default.node_sound_stone_defaults()
 })
