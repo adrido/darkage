@@ -38,7 +38,7 @@ minetest.register_node("darkage:glass_round", {
 	use_texture_alpha = true,
 	sunlight_propagates = true,
 	sounds = default.node_sound_glass_defaults(),
-	groups = {cracky=3,oddly_breakable_by_hand=3},
+	groups = {cracky=3,oddly_breakable_by_hand=3, not_cuttable=1},
 })
 
 minetest.register_craft({
@@ -60,7 +60,7 @@ minetest.register_node("darkage:glass_square", {
 	use_texture_alpha = true,
 	sunlight_propagates = true,
 	sounds = default.node_sound_glass_defaults(),
-	groups = {cracky=3,oddly_breakable_by_hand=3},
+	groups = {cracky=3,oddly_breakable_by_hand=3, not_cuttable=1},
 })
 
 minetest.register_craft({
@@ -86,7 +86,7 @@ minetest.register_node("darkage:glow_glass", {
 	use_texture_alpha=true,
 	paramtype = "light",
 	sunlight_propagates = true,
-	light_source = default.LIGHT_MAX-7,
+	light_source = default.LIGHT_MAX-3,
 	groups = {cracky = 3, oddly_breakable_by_hand = 3, not_cuttable=1},
 	sounds = default.node_sound_glass_defaults(),
     inventory_image = minetest.inventorycube("darkage_glow_glass.png")
@@ -117,7 +117,7 @@ minetest.register_node("darkage:glow_glass_round", {
 	use_texture_alpha=true,
 	paramtype = "light",
 	sunlight_propagates = true,
-	light_source = default.LIGHT_MAX-7,
+	light_source = default.LIGHT_MAX-3,
 	groups = {cracky = 3, oddly_breakable_by_hand = 3, not_cuttable=1},
 	sounds = default.node_sound_glass_defaults(),
     inventory_image = minetest.inventorycube("darkage_glow_glass_round.png")
@@ -147,7 +147,7 @@ minetest.register_node("darkage:glow_glass_square", {
 	use_texture_alpha=true,
 	paramtype = "light",
 	sunlight_propagates = true,
-	light_source = default.LIGHT_MAX-7,
+	light_source = default.LIGHT_MAX-3,
 	groups = {cracky = 3, oddly_breakable_by_hand = 3, not_cuttable=1},
 	sounds = default.node_sound_glass_defaults(),
     inventory_image = minetest.inventorycube("darkage_glow_glass_square.png")
@@ -263,7 +263,6 @@ if minetest.get_modpath("unifieddyes") then
 		palette = "unifieddyes_palette_extended.png",
 		sunlight_propagates = true,
 		groups = {cracky = 3, oddly_breakable_by_hand = 3, not_cuttable=1, ud_param2_colorable = 1},
-        on_construct = unifieddyes.on_construct,
 		sounds = default.node_sound_glass_defaults()
 	})
 
