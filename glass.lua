@@ -202,7 +202,7 @@ if minetest.get_modpath("unifieddyes") then
         type = "shapeless",
         neutral_node = "",
         recipe = {
-                 "darkage:stained_milk_glass",
+                 "darkage:milk_glass",
                  "MAIN_DYE"
         }
     })
