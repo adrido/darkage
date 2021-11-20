@@ -190,7 +190,7 @@ minetest.register_ore({
 minetest.register_ore({
 	ore_type        	= "sheet",
 	ore             	= "darkage:tuff",
-	wherein         	= {"default:stone", "default:needs_dirt", "default:gravel", "default:stone_with_coal"},
+	wherein         	= {"default:stone", "default:dirt", "default:gravel", "default:stone_with_coal"},
 	column_height_max = 20,
 	column_height_min = 15,
 	y_min            = -200,
@@ -209,7 +209,7 @@ minetest.register_ore({
 minetest.register_ore({
 	ore_type        	= "sheet",
 	ore             	= "darkage:rhyolitic_tuff",
-	wherein         	= {"default:stone", "default:needs_dirt", "default:gravel", "default:stone_with_coal"},
+	wherein         	= {"default:stone", "default:dirt", "default:gravel", "default:stone_with_coal"},
 	column_height_max = 20,
 	column_height_min = 15,
 	y_min            = -2000,
