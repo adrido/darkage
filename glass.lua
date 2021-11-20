@@ -29,6 +29,20 @@ minetest.register_craft({
 })
 
 --[[ Round Glass By Semmett9 aka Infinatum ]]
+if minetest.get_modpath("unifieddyes") then
+	minetest.register_node("darkage:milk_glass", {
+		description = "Milky Medieval Glass (Good for colorization)",
+		drawtype = "glasslike",
+		tiles = {"darkage_milk_glass.png"},
+		use_texture_alpha=true,
+		paramtype = "light",
+		paramtype2 = "color",
+		palette = "unifieddyes_palette_extended.png",
+		sunlight_propagates = true,
+		groups = {cracky = 3, oddly_breakable_by_hand = 3, not_cuttable=1, ud_param2_colorable = 1},
+		sounds = default.node_sound_glass_defaults(),
+		after_dig_node = unifieddyes.after_dig_node
+	})
 
 minetest.register_node("darkage:glass_round", {
 	description = "Round Glass",
