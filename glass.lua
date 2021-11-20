@@ -43,6 +43,7 @@ if minetest.get_modpath("unifieddyes") then
 		sounds = default.node_sound_glass_defaults(),
 		after_dig_node = unifieddyes.after_dig_node
 	})
+end
 
 minetest.register_node("darkage:glass_round", {
 	description = "Round Glass",
