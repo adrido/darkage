@@ -78,8 +78,6 @@ register_moreblocks_alias("darkage:slate_tale", "darkage:slate_tile")
 
 -- Basalt Brick
 minetest.register_alias("darkage:basalt_cobble", "darkage:basalt_brick")
-minetest.register_alias("stairs:slab_basalt_cobble", "stairs:slab_basalt_brick")
-minetest.register_alias("stairs:stair_basalt_cobble", "stairs:stair_basalt_brick")
 register_moreblocks_alias("darkage:basalt_cobble", "darkage:basalt_brick")
 minetest.register_alias("darkage:basalt_cobble_wall", "darkage:basalt_rubble_wall")
 
