@@ -28,11 +28,9 @@ Contains code from CragiDavi and HybridDog
 
 ## Release Notes
 
-### Version 1.4
+### Version 1.4.1
 
-* New Textures by Skamiz
-* serveral mapgen fixes
-* Maintenance stuff
+* Minor Bug fixes
 
 Full release notes: <https://github.com/adrido/darkage/releases>
 
@@ -54,28 +52,9 @@ For Building-blocks and crafting information please take a look to the wiki:
 
 ## License
 
-Sourcecode: WTFPL (see below)
-Graphics: WTFPL (see below)
+Sourcecode: MIT
+Graphics: CC-0
 
 ## See also
 
-<http://minetest.net/>
-
----
-
-```text
-
-         DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-                    Version 2, December 2004
-
- Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
-
- Everyone is permitted to copy and distribute verbatim or modified
- copies of this license document, and changing it is allowed as long
- as the name is changed.
-
-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
-
-  0. You just DO WHAT THE FUCK YOU WANT TO.
-```
+<https://www.luanti.org/>
