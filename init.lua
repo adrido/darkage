@@ -293,14 +293,16 @@ minetest.register_craft({
 	}
 })
 
--- Cookings
-
-
 minetest.register_craft({
-	type = "cooking",
-	output = "darkage:dry_leaves",
-	recipe = "default:leaves",
+    type = "shapeless",
+    output = "darkage:dry_leaves 2",
+    recipe = {
+        "group:leaves",
+        "group:leaves",
+    },
 })
+
+-- Cookings
 
 minetest.register_craft({
 	type = "cooking",

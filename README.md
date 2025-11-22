@@ -28,9 +28,9 @@ Contains code from CragiDavi and HybridDog
 
 ## Release Notes
 
-### Version 1.4.1
+### Version 1.4.2
 
-* Minor Bug fixes
+* Change craft recipe of "Dry Leaves" to [Leave] [Leave] --> 2 "Dry Leaves" to avoid conflict with other mods 
 
 Full release notes: <https://github.com/adrido/darkage/releases>
 
